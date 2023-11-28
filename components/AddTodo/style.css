@@ -1,0 +1,55 @@
+.addIcon {
+  width: 2rem;
+  height: 2rem;
+}
+.addTodoBtn {
+  padding: 0rem 0rem 1rem 0rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.addBtn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.addBtn:hover {
+  box-shadow: lightgreen 2px 2px 2px;
+}
+.priority {
+  gap: 1rem;
+  display: flex;
+}
+.clicked {
+  outline: none;
+}
+/* .addBtn {
+  background-color: #1c274c;
+  color: white;
+  border-radius: 5px;
+  padding: 0.25rem 0.75rem;
+}
+.addIcon {
+  background-color: white !important;
+} */
+.custom-datepicker {
+  display: flex;
+}
+.custom-datepicker input[type='date'] {
+  padding-left: 2.5rem;
+  border: 1px solid #a2a2a2;
+  border-radius: 4px;
+  height: 2.75rem;
+  position: relative;
+  max-width: 9rem;
+}
+
+.custom-datepicker input[type='date']::-webkit-inner-spin-button,
+.custom-datepicker input[type='date']::-webkit-calendar-picker-indicator {
+  position: absolute;
+  left: 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  /* background: url(../images/calender.svg) no-repeat 0 0; */
+  background-size: contain;
+  top: 0.35rem;
+}

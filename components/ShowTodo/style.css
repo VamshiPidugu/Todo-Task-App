@@ -1,0 +1,67 @@
+.todos-box {
+  position: relative;
+}
+.todo-container {
+  background-color: aquamarine;
+  padding: 1rem 0.5rem;
+  border-radius: 20px;
+  display: flex;
+  gap: 1rem;
+  /* text-align: center;
+  justify-content:space-between; */
+  margin-bottom: 1rem;
+}
+.taskname {
+  /* text-align: center;
+  justify-content: center; */
+}
+.priorityText {
+  text-align: center;
+  justify-content: center;
+}
+.taskStatus {
+  margin-top: 0rem;
+}
+.taskstatusIndictor {
+  padding: 0.5rem;
+  background-color: rgba(236, 57, 13, 0.918);
+  color: white;
+  border-radius: 5px;
+}
+.deleteicon {
+  height: 3rem;
+  width: 3rem;
+}
+.editicon {
+  height: 3rem;
+  width: 3rem;
+}
+.dltbtn,
+.edtbtn {
+  border: none;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  background-color: aquamarine;
+}
+.dltbtn:hover,
+.edtbtn:hover {
+  box-shadow: rgb(255, 0, 64) 2px 2px 2px 2px;
+}
+
+.taskheader {
+  color: navy;
+}
+.value {
+}
+.High {
+  color: red;
+  font-weight: bold;
+}
+.Medium {
+  color: orange;
+  font-weight: bold;
+}
+.Low {
+  color: green;
+  font-weight: bold;
+}

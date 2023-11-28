@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.taskHeader {
+  font-weight: bold;
+  color: navy;
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+.modal.show .modal-dialog {
+  position: relative;
+  transform: translate(0%, 0%);
+}
